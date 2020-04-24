@@ -8,7 +8,7 @@ int main(){
         nilai =1; 
     }
     cout<<endl;
-    //memanipulasi array dengan menggunakan referensi
+
     for(int &nilaiRef : arrayNilai){
         nilaiRef*=2;
     }
